@@ -52,3 +52,9 @@ Testing is done on computer with 64GB of RAM and 2 Intel Xeon E5646 processors (
 | 6 |      028707 |     0.6513 |  3.9078 |
 | 7 |      025085 |     0.6389 |  4.4723 |
 | 8 |      021641 |     0.6480 |  5.1840 |
+
+## Efficiency chart
+![Efficiency chart](https://raw.githubusercontent.com/mariokostelac/connect4-mpi/master/img/efficiency.png)
+
+## Speedup chart
+![Speedup chart](https://raw.githubusercontent.com/mariokostelac/connect4-mpi/master/img/speedup.png)
