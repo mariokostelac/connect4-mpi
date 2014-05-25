@@ -5,13 +5,26 @@ Connect4 game implemented in C++ with MPI. Done for Parallel programming course 
 
 Everything is implemented just in order to show how computation time can be reduced by using MPI and parallel computing.
 
+On every player turn, computer searches among all possible future situations (till it reaches defined depth) and calculates next turn based on it.
 No pruning or similar techniques are implemented.
 
 ## <a name="install"></a> Install
-Have to be done
+When you have compiler that can compile c++11 and installed implementation of MPI, just type
+
+    make
 
 ## <a name="running"></a> Running
-Have to be done
+Position your cursor in cloned repo and run program with *mpirun* or *mpiexec*.
+
+Sample run:
+
+    mpirun -np 8 ./bin/game -w 7 -h 6 -d 9
+
+Parameters:
+*   **np** - number of parallel processes
+*   **w** - board width (default 7)
+*   **h** - board height (default 6)
+*   **d** - search depth (default 8)
 
 ## <a name="performance"></a> Performance
 
